@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLS Pace Setter - Bilateral Stimulation Tool</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-brain"></i> BLS Pace Setter</h1>
+            <p class="subtitle">A privacy‑focused bilateral stimulation tool for EMDR therapy</p>
+        </header>
+
+        <main>
+            <section class="instructions">
+                <h2><i class="fas fa-info-circle"></i> How to Use</h2>
+                <p>Click the <strong>Start</strong> button to begin the bilateral stimulation. The dot will move horizontally across the screen. Use the <strong>Stop</strong> button to pause the animation.</p>
+                <p>This tool is intended as a supplementary resource between therapy sessions. Always follow your therapist's guidance.</p>
+            </section>
+
+            <section class="stimulator">
+                <h2><i class="fas fa-eye"></i> Visual Stimulator</h2>
+                <div class="stimulator-area">
+                    <!-- Moving dot will be placed here -->
+                </div>
+                <div class="controls">
+                    <button id="startStopBtn" class="btn btn-primary">
+                        <i class="fas fa-play"></i> Start
+                    </button>
+                </div>
+            </section>
+
+            <section class="about">
+                <h2><i class="fas fa-code"></i> About This Project</h2>
+                <p>This is an open‑source tool developed by mental health professionals. The code is entirely client‑side – no data leaves your browser. You can inspect, modify, and contribute to the project on <a href="https://github.com/z-teckson/bls-pace-setter" target="_blank">GitHub</a>.</p>
+            </section>
+        </main>
+
+        <footer>
+            <p>Made with <i class="fas fa-heart"></i> by psychologists passionate about accessible mental health tools.</p>
+            <p class="license">MIT License • <a href="https://github.com/z-teckson/bls-pace-setter/issues">Report an issue</a></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
